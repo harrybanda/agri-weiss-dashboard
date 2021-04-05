@@ -1,0 +1,19 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-agriweiss-dev-145213-authRole",
+      "UnauthRoleArn": "arn:aws:iam::803946192019:role/amplify-agriweiss-dev-145213-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::803946192019:role/amplify-agriweiss-dev-145213-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-agriweiss-dev-145213-deployment",
+      "UnauthRoleName": "amplify-agriweiss-dev-145213-unauthRole",
+      "StackName": "amplify-agriweiss-dev-145213",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:803946192019:stack/amplify-agriweiss-dev-145213/cbf7fba0-960d-11eb-b1d5-067b7a642a14"
+    },
+    "categories": {
+      "auth": {
+        "agriweiss98d67d61": {}
+      }
+    }
+  }
+}

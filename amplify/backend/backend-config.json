@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "agriweiss98d67d61": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
