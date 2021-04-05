@@ -40,7 +40,7 @@ function App() {
     withGoogleMap((props) => (
       <GoogleMap defaultZoom={8} defaultCenter={{ lat: -34.397, lng: 150.644 }}>
         {props.isMarkerShown && (
-          <Marker position={{ lat: iotDevices[0].deviceLat, lng: iotDevices[0].deviceLon }} />
+          <Marker position={{ lat: -34.397, lng: 150.644 }} />
         )}
       </GoogleMap>
     ))
@@ -100,7 +100,7 @@ function App() {
     getIotCat();
   }, []);
 
-  if (!iotDevices[0]) return null;
+  if (!iotDevices[0].deviceLon) return null;
 
   return (
     <div>
